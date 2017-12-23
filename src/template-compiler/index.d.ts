@@ -1,0 +1,1 @@
+export default function (html?: string, scoped?: boolean, id?: string): string;

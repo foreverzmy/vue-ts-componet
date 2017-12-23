@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": [
+      "dom",
+      "es2015"
+    ],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "outDir": "lib",
+    "experimentalDecorators": true,
+    "declaration": true,
+    "strict": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "removeComments": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "compileOnSave": false
+}
