@@ -1,6 +1,6 @@
 import Vue, { ComponentOptions } from 'vue';
 import Component, { createDecorator, VueDecorator } from 'vue-class-component';
-import { VueClass } from './declarations'
+import { VueClass } from './declarations';
 import hash from './hash-sum';
 import templateCompiler from './template-compiler/index';
 import styleCompiler from './style-compiler/index';
@@ -11,7 +11,7 @@ export interface Options extends ComponentOptions<Vue> {
 }
 
 function VueComponent<V extends Vue>(options: Options & ThisType<V>): <VC extends VueClass<V>>(target: VC) => VC
-function VueComponent<VC extends VueClass<Vue>>(target: VC): VC
+function VueComponent<VC extends VueClass<Vue>>(target: VC): VC;
 function VueComponent(options: Options): any {
   let style: string;
   if (options.scoped) {
