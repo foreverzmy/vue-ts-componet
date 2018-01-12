@@ -2,7 +2,7 @@
 
 > TypeScript class decorator can scoped css for Vue component.
 
-## install
+## Install
 
 ```bash
 // npm
@@ -29,6 +29,10 @@ export default class HelloWorld extends Vue {
 }
 ```
 
+## Use with vue-cli
+
+
 ## Other
 
 Detail: [vue-class-component](https://www.npmjs.com/package/vue-class-component)
+
